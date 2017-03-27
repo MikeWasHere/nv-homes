@@ -1,0 +1,217 @@
+.bold {
+	font-weight: 900;
+}
+
+.floor-tabs {
+	margin-left: 35%;
+	margin: 0 auto;
+    width: 50%;
+}
+
+/*ul.nav {
+	margin-left: 35%;
+}
+
+div > .nav-tabs {
+    margin: 0 auto;
+    width: 50%;
+}*/
+
+.navbar-collapse > ul {
+	text-align: center;
+}
+
+.big-banner {
+	background: url('http://www.luxuryhomes.com/images3/Harrison-San-Francisco-luxury-homes.jpg');
+	text-align: center;
+	padding: 7%;
+}
+
+.big-banner > .img-container > a {
+	background-color: gray;
+	padding: 10px 40px;
+	font-size: 1.5em;
+	transition: ease .333s;
+}
+
+.big-banner > .img-container > a:hover {
+	background-color: darkgray;
+	text-decoration: none;
+}
+
+.big-banner > .img-container > h1 {
+	margin-bottom: 5%;
+}
+
+.-section {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	width: 80%;
+	margin: 5% auto;
+	background-color: gray;
+}
+
+.section-header {
+	font-size: 3em;
+}
+
+div > hr {
+	border-top: 1px solid lightgray;
+}
+
+.about {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.house-img {
+	
+	margin-right: 5%;
+}
+
+.img-container > img {
+	max-width: 100%;
+}
+
+.house-img > img {
+	max-width: 310px;
+}
+
+.description > h2 {
+	text-transform: capitalize;
+	margin-top: 0;
+}
+
+.description > hr {
+	margin: 5px 0px;
+}
+
+.description > p {
+	line-height: 1.5;
+}
+
+.detailed-icons {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.-icon {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3em;
+}
+
+.-icon > p {
+	margin: 0;
+}
+
+.-icon > div {
+	width: 40%;
+	border: 3px black solid;
+	border-radius: 50%;
+	padding: 8%;
+}
+
+.-icon > div > img {
+	max-width: 100%;
+}
+
+/********** HIGHLIGHTS SECTION **********/
+.highlights {
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.highlights > .img-container {
+	padding-left: 0;
+}
+
+.highlights-container hr {
+	margin: 5px 15px;
+}
+
+hr.long {
+	width: 25%;
+}
+
+hr.short {
+	width: 15%;
+}
+
+.highlights-container > .four-point-container{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+/*.highlight {
+	width: 45%;
+	display: inline-block;
+}*/
+
+.highlight > h2 {
+	font-size: 1.5em;
+	font-weight: 
+}
+
+.highlight > p {
+	font-size: .9em;
+}
+
+/********** PHOTO GALLERY **********/
+.photo-gallery-container {
+	padding: 0 7%;
+}
+
+.sorter-container > .btn-primary {
+	background-color: transparent;
+	color: #2e6da4;
+	transition: .350s;
+}
+
+/*.photo-gallery > h2 {
+	font-size: 3em;
+}*/
+
+.photo-gallery > hr {
+	margin: 5px auto;
+}
+
+.photo-gallery > .long {
+	width: 10%;
+}
+
+.photo-gallery > .short {
+	width: 5%;
+	margin-bottom: 30px;
+}
+
+#sdfm-wrapper {
+	margin-left: 10%;
+}
+
+#sort-me {
+	margin-top: 3%;
+}
+
+/********** Floor Plan **********/
+.floor-plam-container {
+
+}
+
+footer {
+	width: 100%;
+	background-color: gray;
+	padding: 10px;
+	clear: both;
+}
